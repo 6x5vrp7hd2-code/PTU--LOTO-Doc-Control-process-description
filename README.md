@@ -1,22 +1,11 @@
-# Powertec — Isolation & Safety Document Control: Explainer Website
+# Powertec System Guide V2 — multi-page website
 
-Open `index.html` in a browser. The website is static and suitable for GitHub Pages; upload all files from this folder to a **separate** repository (or a subdirectory with appropriately adjusted links).
+Open index.html or upload the contents of this folder to a separate GitHub Pages repository.
 
-## What is included
-- Corporate-style animated Powertec opening page
-- The operational problem and four-cabinet system
-- Five-stage interactive document lifecycle walkthrough
-- Actual V11 app menu/function map
-- Safety and cybersecurity boundaries, limitations, deployment prerequisites
-- Client-facing value proposition without invented savings
-- Two video-ready storyboards (engineer induction and client introduction)
-- Print/save storyboard button (browser print-to-PDF)
+Uses the exact Powertec Corporate V26 opening background and logo assets. Home hero has the staged 2.6-second fade and delayed service strap/copy.
 
-## Source basis
-Reviewed `Powertec_Isolation_Safety_Document_Control_v11.zip`, including `app.js`, `index.html`, and `README.md`, plus the user's supplied four-cabinet operating concept. The website does **not** embed or reproduce restricted drawings.
+Separate pages: purpose, site setup, four cabinets, document process, application, drawing links, assurance, video & clients.
 
-## Important discrepancy
-The V11 README says document creation/cancellation is saved **per browser**, not synchronised through a shared backend. The user's earlier cross-device test may have concerned another version. The guide explicitly treats multi-user real-time data as a **target requirement**, not an implemented capability.
+The content follows the user's revised four-cabinet procedure, including the signed-out AP/SAP-only master cabinet key, CP signed personal lock, CP keeps their key, box returned to Cabinet 3 and box-lock key placed in Cabinet 4.
 
-## Status
-This is an explanatory demonstration and a video production brief, **not** a live electrical safety management system. No client approval, tested security certification or operational authorisation is implied.
+The app described is a demonstration; production shared synchronisation and secure access are requirements, not certified or implemented features. Site-specific drawings require permission. No real SLDs are reproduced.
